@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-#sheet_name = 'plan1' (Serve, caso hajam mais de uma, para definir a planilha presente no arquivo que será utilizada)
+#sheet_name = 'plan1' (Serve, caso haja mais de uma, para definir a planilha presente no arquivo que será utilizada)
 
 df = pd.read_excel('Teste2.xlsx', skiprows=28)
 
